@@ -1,0 +1,24 @@
+#three{
+     background-color:#ffa07a;
+     border: solid 5px black;
+     margin: 4px;
+}
+#two{
+	background-color: lightyellow;
+	border: solid 5px black;
+	margin: 4px;
+}
+#pie{
+	background-color: violet;
+	border: solid 5px black;
+	margin: 4px;
+}
+#boarder{
+	box-shadow: 5px 10px;
+}
+#ans{
+      background-color:red;
+      border:solid 5px black;
+      margin:4px;
+}
+	

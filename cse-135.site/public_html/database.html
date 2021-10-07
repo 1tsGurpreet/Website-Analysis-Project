@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <title>Database Viewer</title>
+  <link href="main.css" rel="stylesheet">
+  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="favicon.ico">
+  <script src="https://cdn.zinggrid.com/zinggrid.min.js" defer></script>
+  <script src="/db.js"></script>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a id='static-button' onclick="show('static-grid')">Static</a></li>
+      <li><a id='perf-button' onclick="show('perf-grid')">Performance</a></li>
+      <li><a id='act-button' onclick="show('act-grid')">Activity</a></li>
+    </ul>
+  </nav>
+  <zing-grid
+    caption="Static Data"
+    search
+    sort
+    pager
+    page-size='10'
+    page-size-options='5, 10, 20, 50'
+    data='' id='static-grid'>
+  </zing-grid>
+  <zing-grid
+    caption="Performance Data"
+    search
+    sort
+    pager
+    page-size='10'
+    page-size-options='5, 10, 20, 50'
+    data='' id='perf-grid'>
+  </zing-grid>
+  <zing-grid
+    caption="Activity Data"
+    search
+    sort
+    pager
+    page-size='10'
+    page-size-options='5, 10, 20, 50'
+    data='' id='act-grid'>
+  </zing-grid>
+<footer>
+  Proudly powered by <a href="https://wordpress.org/">Wordpress</a>
+</footer>  
+
+</body>
+
+</html>
+ 

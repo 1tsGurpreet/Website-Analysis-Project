@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>PHP Session Test</title>
+  <link href="../main.css" rel="stylesheet">
+  <link rel="apple-touch-icon" href="../favicon.ico">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/members/edwin.html">Edwin</a></li>
+      <li><a href="/members/shuhua.html">Shuhua</a></li>
+      <li><a href="/members/henry.html">Henry</a></li>
+    </ul>
+  </nav>
+  <header>
+    <h1 id="mainheading">PHP Session Test</h1>
+  </header>
+
+  <form action="/cgi-bin/php-session-1.php" method="POST" style="order:2; flex-basis: 45vw; flex-grow: 1; margin: 2.5%;">
+    <label for="name">Enter your name:</label>
+    <input name="name" id="name" value="">
+    <button>Start session</button>
+  </form>
+
+  <footer>
+    Proudly powered by <a href="https://wordpress.org/">Wordpress</a>
+  </footer>
+
+</body>
+
+</html>
+

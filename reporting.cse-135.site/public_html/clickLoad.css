@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+ 
+#myChart {
+  height: 100%;
+  width: 100%;
+  min-height: 150px;
+}
+ 
+.zc-ref {
+  display: none;
+}
+#three{
+     background-color:#ffa07a;
+     border: solid 5px black;
+     margin: 4px;
+}
+#two{
+        background-color: lightyellow;
+        border: solid 5px black;
+        margin: 4px;
+}
+

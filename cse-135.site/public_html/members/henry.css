@@ -1,0 +1,17 @@
+#introduce{
+     background-color:lightblue;
+     border: solid 5px black;
+     margin: 4px;
+}
+
+#article{
+     background-color:lightyellow;
+     border: solid 5px yellow;
+     margin: 4px;
+}
+
+#table{
+     background-color:lightgreen;
+     border: solid 5px black;
+     margin: 4px;
+}

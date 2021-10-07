@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <title>Data Visualization</title>
+  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="dashboard.css">
+  <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+  <script src="/dashboard.js"></script>
+</head>
+
+<body>
+  <section id='dash-summary'>
+    <h1>Summary</h1>
+    <article id='txt-summary'>
+      <h2>At a Glance</h2>
+      <ul>
+        <li>There have been xxx visits in the last 7 days</li>
+        <li>In that time, the average load time was yyy</li>
+        <li>In that time, the average clicks per session time was yyy</li>
+        <li>In that time, the average session length was yyy</li>
+        <li>There have been xxx visits earlier than 7 days ago</li>
+        <li>There have been xxx undated visits</li>
+        <li>In total, the average load time is yyy</li>
+        <li>In total, the average session length is yyy</li>
+      </ul>
+    </article>
+
+    <div id="pie-chart" class="dataviz-container">
+    </div>
+  </section>
+  
+  <div id="bar-chart" class="dataviz-container">
+	  <h1>Access Patterns (Dated Data Only)</h1>  
+  </div>
+
+  <div id="line-3-chart" class="dataviz-container">
+		  <h1>3-series line chart</h1>
+  </div>
+<footer>
+  Proudly powered by <a href="https://wordpress.org/">Wordpress</a>
+</footer>  
+
+</body>
+
+</html>
+ 

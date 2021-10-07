@@ -1,0 +1,44 @@
+#introduction{
+    background-color:lightblue;
+    border: solid 5px black;
+    margin: 2px;
+}
+
+#course-name
+{
+    background-color:lightblue;
+    border: solid 5px black;
+    margin: 2px;
+}
+
+#me{
+    background-color:lightskyblue;
+    border: solid 5px black;
+    margin: 2px;
+}
+
+#buttons
+{
+    background-color: lightpink;
+    border: solid 5px black;
+    margin: 2px;
+}
+
+
+#headingBtn{
+    background-color: lightgrey;
+    border: solid 1px grey;
+    color: black;
+}
+
+#messageBtn{
+    background-color: lightgrey;
+    border: solid 1px grey;
+    color: black;
+}
+
+#goBack{
+    background-color: lightgrey;
+    border: solid 1px grey;
+    color: black;
+}

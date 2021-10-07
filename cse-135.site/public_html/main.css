@@ -1,0 +1,173 @@
+body{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0;
+}
+
+header{
+	padding: 2%;
+	order: 1;
+	flex-grow: 2;
+	flex-basis: 60vw;
+}
+
+nav{
+	flex-basis: 100vw;
+	background-color: #7796bb;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+nav li{
+    order: 1;
+    flex-basis: 10em;
+}
+
+nav li a{
+	font-size: 1.6em;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav li a:hover{
+	color: #e0e0e0;
+}
+
+#team-members{
+	padding: 2%;
+	text-align: left;
+	order: 2;
+	flex-grow: 1;
+	flex-basis: 20vw;
+}
+
+#team-members ul,
+nav ul{
+	list-style-type: none;
+}
+
+#team-members a{
+	font-size: 1.2em;
+	color: #3268a8;
+}
+
+#team-members a:hover{
+	color: #7796bb;
+}
+
+section.homework{
+    order: 3;
+    flex-basis: 45vw;
+    flex-grow: 1;
+    padding: 1%;
+    background-color: lightyellow;
+}
+
+.homework2{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.homework2 h2{
+    order: -1;
+    flex-basis: 45vw;
+    flex-grow 5;
+}
+
+footer{
+    background-color: #e0e0e0;
+    padding: 2vh 0;
+    order: 4;
+    flex-basis: 100vw;
+    text-align: center;
+}
+
+/*****Shuhua Specific CSS*****/
+body section{
+    order: 3;
+    margin-bottom: 2em;
+}
+
+#sq{
+    width: max(150px, 15vw);
+    height: max(150px, 15vw);
+    background-color: #000;
+    margin: 2em auto;
+}
+
+a.button{
+    margin: 1.5em;
+    padding: 1em 2.5em;
+    border: .2em solid #3268a8;
+    border-radius: 1em;
+    background-color: #3268a8;
+    color: #fff;
+}
+
+a.button:hover{
+    border: .2em solid #7796bb;
+    background-color: #7796bb;
+}
+
+.sq-animate {
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #000;
+  }
+  50% {
+    background-color: #7796bb;
+  }
+  100%{
+    background-color: #000;
+  }
+}
+
+.dataviz-container{
+   max-width: 1000px;
+   margin: 2% auto;
+}
+
+zing-grid {
+  padding: 10px;
+  box-shadow: 0 0 9px rgba(0, 0, 0, .15);
+}
+
+zg-caption {
+  font-weight: bold;
+  opacity: 0.6;
+  text-align: center;
+  transition: 0.3s opacity;
+}
+
+zg-caption:hover {
+  opacity: 1;
+}
+
+zg-head {
+  color: #000;
+}
+
+zg-cell {
+  color: #111;
+  transition: 1s background-color;
+}
+
+zg-cell:hover {
+  background-color: lightblue;
+}
+
+zg-body zg-row:nth-child(odd) {
+  background-color: #eee;
+}
