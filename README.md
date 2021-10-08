@@ -1,5 +1,13 @@
 # Website Data Analysis Project
 
+Created a Website which was used to collect data from the user. Thoroughly analyzed the data and presented it in the form of a dashboard report. Created REST API's to track the users data and implemented CRUD operations to allow for changes in MySQL databases. 
+
+**Highlights:**
+- Learned to manage form authentications through MySQL databases, hashing and salting passwords.
+- Learned to create REST API's through PHP
+- Learned to create a script in javascript to collect data from the users and our website. 
+- Mastered HTMl, CSS, JavaScript and PHP
+
 ## Available Scripts 
 
 To collect data for the main website (cse-135.site)
